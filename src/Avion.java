@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+// Clase Avion con los metodos sobreescritos de Volador
+public class Avion implements Volador{
+    @Override
+    public void volar() {
+        System.out.println("El avion vuela");
+    }
 
-public class Avion {
+    @Override
+    public void aterriza() {
+        System.out.println("El avion aterriza");
+    }
 }
